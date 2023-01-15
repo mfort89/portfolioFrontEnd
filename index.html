@@ -4,47 +4,176 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+        crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/c02b5fc12b.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/css/styles.css">
         <title>MarianoF</title>
-        <link rel="stylesheet" href="styles.css">  
+        
+        
 </head>
 
 <body>
+  
+        <!--navbar-->
+        <section id="navbar"> 
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                          <img class="fotoargprograma" src="assets/img/logoarg.png" alt="imagen-de-argprog" title="imagen argprograma"/>
+                          
+                              <li class="nav-item">
+                                <a class="nav-link disabled">Disabled</a>
+                              </li>
+                            </ul>
+                            <ul class="list-group list-group-horizontal">
+                                <li class="list-group-item"><a href="https://codepen.io/mfort89" target="_blank"><i class="fa-brands fa-codepen"></a></i></li>
+                                <li class="list-group-item"><a href="https://www.linkedin.com/in/mariano-forti-34423a99/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                                <li class="list-group-item"><a href="https://github.com/mfort89" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                                      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#firstmodal">
+        Login
+      </button>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#firstmodal">
+        Logout
+      </button>
+                              </ul>
+                              
+                          </div>
+                        </div>
+                      </nav>
+                    </section>
+
+<div id="fotobanner"><img src="assets/img/banner.jpg" id="banner"/></div>
+       
 <!--redes-->
-
-        <Section><h2>Redes</h2>
-                <ul>
-                        <li><a href="http://facebook.com" target="_blank">ir a facebook</a></li>
-                        <li><a href="https://www.linkedin.com/in/mariano-forti-34423a99/" target="_blank">ir a linkedin</a></li>
-                        <li><a href="http://instagram.com" target="_blank">ir a instagram</a></li>
-                      
-
-                </ul>
+                      <!--siempre redes profecionales-->
+               
                 
         
         
-        </Section>
+        </Section id="sobre">
 
 
 <!--sobre mi-->
-        <section><h2>Sobre mi</h2></section>
+        <section>
+                <div class="container text-center">
+                        <div class="row">
+                          <div class="col">
+                            <img class="fotoperfil" src="assets/img/IMG-20171022-WA0002.jpeg" alt="imagen-de-mariano-forti" title="imagen de Mariano forti"/>
+                          </div>
+                          <div class="col">
+                            <h2>HABILIDADES</h2>
+        <H3>JAVA</H3>
+        <H3>PYTHON</H3>
+        <H3>HTML</H3>
+        <H3>CSS</H3>
+        <H3></H3>
+        <!--CAMBIAR FOTO DE PERFIL POR UNA MAS PROFECIONAL-->
+                          </div>
+                          <div class="col">
+                            <h1 class="nombre">Mariano Gabriel <span class="apellido">Forti</span></h1>
+                          </div>
+                        </div>
+                      </div>
         <div>
-                <h3>Mariano Gabriel Forti</H3>
+          
+                
                 <H3>Programador Backend//Frontend</H3>
+                <H3>Full stack</H3>
          </div>
 
- <!--seccion experiencia-->
-        <section><h2>Experiencia laboral</h2></section>
+         <section id="editsobre" class="mt-4 pb-3" bg-light>
 
-<!--habilidades-->
-        <section><h2>Habilidades</h2></section>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+               <button class="btn btn-light">Editar imagen</button>
+              </div>
+              <div class="col">
+                <button class="btn btn-light">Editar nombre</button>
+              </div>
+              <div class="col">
+                <button class="btn btn-light">Editar info</button>
+              </div>
+            </div>
+          </div>
+         </section>
+        </section>
+ <!--seccion experiencia-->
+        <section id="experiencia"><h2>Experiencia laboral</h2></section>
+
+
 
  <!--educacion-->
-        <section><h2>Educación</h2></section>
+        <FOoter>
+ <section><h2>Educación</h2>
+        </section>
+      </FOoter>
 
  <!--proyectos-->
-        <section><h2>proyectos</h2></section>
+        <section><h2>Proyectos</h2></section>
 
 
+
+        <section><h2>Contacto</h2>
+        <label for="">Preguntame lo que quieras</label>
+        <input type="text" placeholder="escribir aca">
+        <button type="submit">Enviar</button>
+             </section>
+
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+             integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
+             crossorigin="anonymous"></script>
   
+       
+      
+      <!-- Modal -->
+      <div class="modal fade" id="firstmodal" tabindex="-1" aria-labelledby="firstmodal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="firstmodal">Login</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                       
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <
+
+
+              
+           </div>
+          
+       </div>
+
+
+
+
 </body>
+
 </html>
